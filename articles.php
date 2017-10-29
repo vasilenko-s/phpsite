@@ -1,4 +1,5 @@
 ﻿<?php
+//test #2 github
 include("blocks/db.php"); // Соединяемся с базой данных
 $result = mysqli_query($db,"SELECT title,meta_d,meta_k,text FROM settings WHERE page='articles'");//Обращаемся к таблице в БД
 $myrow=mysqli_fetch_array($result); 
